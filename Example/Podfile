@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MyOwnExt_Example' do
+  pod 'MyOwnExt', :path => '../'
+
+  target 'MyOwnExt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
