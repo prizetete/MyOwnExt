@@ -13,4 +13,9 @@ public extension UIView {
         self.layer.borderWidth = fBorderWidth
         self.layer.borderColor = UIColor.yellow.cgColor
     }
+    
+    public func setGreenBorder() {
+        self.layer.borderColor = UIColor.green.cgColor
+        self.layer.borderWidth = 5.0
+    }
 }
