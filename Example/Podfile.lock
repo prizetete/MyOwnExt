@@ -1,0 +1,16 @@
+PODS:
+  - MyOwnExt (0.1.0)
+
+DEPENDENCIES:
+  - MyOwnExt (from `../`)
+
+EXTERNAL SOURCES:
+  MyOwnExt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MyOwnExt: b5b90ba31bce77369f101754fabf0e6b766b1083
+
+PODFILE CHECKSUM: ed0f5262cb1050082e4ccd81d723694b094f9efd
+
+COCOAPODS: 1.6.0
