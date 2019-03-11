@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		16DCB45462C46E20B6B77D366EECC356 /* Pods-MyOwnExt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F32871624C03B335DFECBB1DC2CCB8 /* Pods-MyOwnExt_Example-dummy.m */; };
 		21EBF71C8F54A71E977020C0CB1D18CE /* Pods-MyOwnExt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 189CECF79509BA8047535B161F668E8D /* Pods-MyOwnExt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		672A44BD22361DB00012774A /* CustomTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672A44BC22361DB00012774A /* CustomTableController.swift */; };
+		672A44BF22361DCE0012774A /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672A44BE22361DCE0012774A /* CustomView.swift */; };
 		7699E7F3875473BE126D11C4D3EAA64F /* MyOwnExt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0231FE035DF096547E54AC1E85342BF5 /* MyOwnExt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		920757E4FF224567374F0583A2EDF674 /* Pods-MyOwnExt_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8ECEE71EDC7BAFDF319EEC6011DDF3 /* Pods-MyOwnExt_Tests-dummy.m */; };
 		9A2598625D86FADFA601FC703E1FFB3B /* Pods-MyOwnExt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9833D57FA38BF257CEFD06945532D3E /* Pods-MyOwnExt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,6 +47,8 @@
 		33AF8072EE59A029DF179D035C0774CC /* Pods_MyOwnExt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyOwnExt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD41ABA79A0DDB146DA075D4F1AE5BB /* Pods-MyOwnExt_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyOwnExt_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5A4877DD1E7A8ECAAE596B6F77733EFE /* MyOwnExt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyOwnExt-dummy.m"; sourceTree = "<group>"; };
+		672A44BC22361DB00012774A /* CustomTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableController.swift; sourceTree = "<group>"; };
+		672A44BE22361DCE0012774A /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		70CD9BA384C824ED8EA010093069BC7B /* Pods-MyOwnExt_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyOwnExt_Tests.modulemap"; sourceTree = "<group>"; };
 		7DC56C1E63DE347CB207A10DD155F3C8 /* Pods-MyOwnExt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyOwnExt_Example.release.xcconfig"; sourceTree = "<group>"; };
 		81BB20E54A10EBEAE46C0EC653F640B5 /* Pods-MyOwnExt_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyOwnExt_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 				C57612AA51F0F70479650DCDB019EDA7 /* MyOwnExt.swift */,
 				4856955A2FCB846CFACBA2322A8D1ED8 /* Pod */,
 				F85E005ADE393311181945A4FEDBCD24 /* Support Files */,
+				672A44BC22361DB00012774A /* CustomTableController.swift */,
+				672A44BE22361DCE0012774A /* CustomView.swift */,
 			);
 			name = MyOwnExt;
 			path = ../..;
@@ -381,6 +387,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDFA203367AB47DF08D657B4E851E604 /* MyOwnExt-dummy.m in Sources */,
+				672A44BF22361DCE0012774A /* CustomView.swift in Sources */,
+				672A44BD22361DB00012774A /* CustomTableController.swift in Sources */,
 				A4A0D28111CB6A09D8409F493F6F87B5 /* MyOwnExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

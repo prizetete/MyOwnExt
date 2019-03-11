@@ -7,12 +7,23 @@
 //
 
 import UIKit
+import MyOwnExt
 
 class ViewController: UIViewController {
 
+//    var oooo: CustomView = CustomView()
+//    private var oo: CustomView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+//        self.oo = CustomView()
+//        let oop = CustomView()
+//        oop.oooo()
+//        oop
         // Do any additional setup after loading the view, typically from a nib.
+        self.view.setYellowBorder(fBorderWidth: 5.0)
+//        showCustomView
+        
     }
 
     override func didReceiveMemoryWarning() {
