@@ -127,10 +127,10 @@
 			isa = PBXGroup;
 			children = (
 				C57612AA51F0F70479650DCDB019EDA7 /* MyOwnExt.swift */,
-				4856955A2FCB846CFACBA2322A8D1ED8 /* Pod */,
-				F85E005ADE393311181945A4FEDBCD24 /* Support Files */,
 				672A44BC22361DB00012774A /* CustomTableController.swift */,
 				672A44BE22361DCE0012774A /* CustomView.swift */,
+				4856955A2FCB846CFACBA2322A8D1ED8 /* Pod */,
+				F85E005ADE393311181945A4FEDBCD24 /* Support Files */,
 			);
 			name = MyOwnExt;
 			path = ../..;
