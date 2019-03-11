@@ -18,8 +18,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 //        self.oo = CustomView()
         
-//        let oop = CustomView()
-//        oop.oooo()
+        let oop = CustomView()
+        oop.oooo()
 //        oop.oooo()
 //        oop
         // Do any additional setup after loading the view, typically from a nib.
