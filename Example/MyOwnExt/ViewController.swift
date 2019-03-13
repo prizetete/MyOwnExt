@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.setViewColor()
+        
         
         let uiBtn = UIButton()
         self.view.addSubview(uiBtn)
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         uiBtn.backgroundColor = UIColor.red
 
         self.view.setYellowBorder(fBorderWidth: 5.0)
-        self.view.setViewColor()
+        
     }
     
     @objc func callCustomView() {

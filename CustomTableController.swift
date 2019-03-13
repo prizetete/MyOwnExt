@@ -24,13 +24,12 @@ public class CustomTableController: UIView, UITableViewDelegate, UITableViewData
         return mTableView
     }()
     
-    convenience public override init(frame: CGRect) {
+    public convenience override init(frame: CGRect) {
         self.init(frame: frame)
         self.iNumRow = 10
         if #available(iOS 9.0, *) {
             self.setupView()
         }
-
     }
     
     public required init?(coder aDecoder: NSCoder) {
@@ -96,7 +95,7 @@ class customCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
     }
     
-    convenience override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+    public convenience override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         self.init(style: style, reuseIdentifier: reuseIdentifier)
         self.selectionStyle = .none
         if #available(iOS 9.0, *) {

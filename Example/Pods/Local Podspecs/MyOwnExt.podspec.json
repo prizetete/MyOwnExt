@@ -1,8 +1,8 @@
 {
   "name": "MyOwnExt",
-  "version": "0.1.0",
-  "summary": "A short description of MyOwnExt.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.3.7",
+  "summary": "Im trying to create my own cocoapod",
+  "description": "EveryThing important for my project example my extension border color",
   "homepage": "https://github.com/prizetete/MyOwnExt",
   "license": {
     "type": "MIT",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/prizetete/MyOwnExt.git",
-    "tag": "0.1.0"
+    "tag": "0.3.7"
   },
+  "swift_versions": "4.2",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "MyOwnExt/Classes/**/*"
 }

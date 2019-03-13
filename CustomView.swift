@@ -50,8 +50,8 @@ public class CustomView: NSObject, UIGestureRecognizerDelegate {
     
     public override init() {
         super.init()
-        self.mCustomTable = CustomTableController()
-        self.mCustomTable.oCustomView = self
+//        self.mCustomTable = CustomTableController()
+//        self.mCustomTable.oCustomView = self
         self.fHeightTop = UIApplication.shared.statusBarFrame.height - 4.0
         self.bCustomViewIsShowing = false
     }
@@ -68,7 +68,7 @@ public class CustomView: NSObject, UIGestureRecognizerDelegate {
             mWindow.addSubview(self.mView)
             self.mView.addSubview(self.mTouchBar)
             self.mView.addSubview(self.mContentView)
-            self.mContentView.addSubview(self.mCustomTable)
+//            self.mContentView.addSubview(self.mCustomTable)
             
             self.mBGBlack.translatesAutoresizingMaskIntoConstraints = false
             self.mBGBlack.centerYAnchor.constraint(equalTo: mWindow.centerYAnchor).isActive = true
@@ -90,11 +90,11 @@ public class CustomView: NSObject, UIGestureRecognizerDelegate {
             self.mContentView.rightAnchor.constraint(equalTo: self.mView.rightAnchor).isActive = true
             self.mContentView.bottomAnchor.constraint(equalTo: self.mView.bottomAnchor).isActive = true
             
-            self.mCustomTable.translatesAutoresizingMaskIntoConstraints = false
-            self.mCustomTable.topAnchor.constraint(equalTo: self.mContentView.topAnchor).isActive = true
-            self.mCustomTable.leftAnchor.constraint(equalTo: self.mContentView.leftAnchor).isActive = true
-            self.mCustomTable.rightAnchor.constraint(equalTo: self.mContentView.rightAnchor).isActive = true
-            self.mCustomTable.bottomAnchor.constraint(equalTo: self.mContentView.bottomAnchor).isActive = true
+//            self.mCustomTable.translatesAutoresizingMaskIntoConstraints = false
+//            self.mCustomTable.topAnchor.constraint(equalTo: self.mContentView.topAnchor).isActive = true
+//            self.mCustomTable.leftAnchor.constraint(equalTo: self.mContentView.leftAnchor).isActive = true
+//            self.mCustomTable.rightAnchor.constraint(equalTo: self.mContentView.rightAnchor).isActive = true
+//            self.mCustomTable.bottomAnchor.constraint(equalTo: self.mContentView.bottomAnchor).isActive = true
         }
     }
     
