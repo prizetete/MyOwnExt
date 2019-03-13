@@ -195,3 +195,10 @@ public class CustomView: NSObject, UIGestureRecognizerDelegate {
         }
     }
 }
+
+public extension UIView {
+    public func setViewColor() {
+        self.backgroundColor = .blue
+    }
+    
+}
