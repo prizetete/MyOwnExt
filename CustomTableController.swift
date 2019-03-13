@@ -95,14 +95,14 @@ public class CustomTableController: UIView, UITableViewDelegate, UITableViewData
 }
 
 class customCell: UITableViewCell {
-    public override func awakeFromNib() {
+    override func awakeFromNib() {
         super.awakeFromNib()
     }
     
-    public override func setSelected(_ selected: Bool, animated: Bool) {
+    override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
-    public override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.selectionStyle = .none
         if #available(iOS 9.0, *) {
@@ -110,7 +110,7 @@ class customCell: UITableViewCell {
         }
     }
     
-    public required init?(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
