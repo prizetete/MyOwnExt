@@ -21,23 +21,16 @@ public class CustomTableController: UIView, UITableViewDelegate, UITableViewData
         mTableView.backgroundColor = UIColor.red
         mTableView.separatorStyle = .none
         mTableView.layer.cornerRadius = 10.0
-        //        mTableView.isScrollEnabled = false
-        //        mTableView.bounces = false
         return mTableView
     }()
     
-//    @available(iOS 9.0, *)
-//    override init(frame: CGRect = .zero) {
-//        super.init(frame: frame)
-//        self.iNumRow = 10
-//        self.setupView()
-//    }
-    public override init(frame: CGRect) {
-        super.init(frame: frame)
+    convenience public override init(frame: CGRect) {
+        self.init(frame: frame)
         self.iNumRow = 10
         if #available(iOS 9.0, *) {
             self.setupView()
         }
+
     }
     
     public required init?(coder aDecoder: NSCoder) {
@@ -102,8 +95,9 @@ class customCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
-    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-        super.init(style: style, reuseIdentifier: reuseIdentifier)
+    
+    convenience override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        self.init(style: style, reuseIdentifier: reuseIdentifier)
         self.selectionStyle = .none
         if #available(iOS 9.0, *) {
             self.setupView()

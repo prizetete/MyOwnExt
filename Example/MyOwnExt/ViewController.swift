@@ -7,40 +7,32 @@
 //
 
 import UIKit
-//import MyOwnExt
+import MyOwnExt
 
 class ViewController: UIViewController {
 
-//    var oooo: CustomView = CustomView()
-//    private var oo: CustomView!
+    var oCustomView: CustomView = CustomView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.oo = CustomView()
-//        self.view.setViewColor()
-//        let oop = CustomView()
-//
-//        print("CustomView: ",self.oooo)
-//
-//        let uiBtn = UIButton()
-//        self.view.addSubview(uiBtn)
-//        uiBtn.translatesAutoresizingMaskIntoConstraints = false
-//        uiBtn.setTitle("Press", for: .normal)
-//        uiBtn.addTarget(self, action: #selector(self.callCustomView), for: .touchUpInside)
-//        uiBtn.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
-//        uiBtn.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
-//        uiBtn.backgroundColor = UIColor.red
-//
-//        // Do any additional setup after loading the view, typically from a nib.
-//        self.view.setYellowBorder(fBorderWidth: 5.0)
-//        self.view.setViewColor()
-//        showCustomView
+        self.view.setViewColor()
         
+        let uiBtn = UIButton()
+        self.view.addSubview(uiBtn)
+        uiBtn.translatesAutoresizingMaskIntoConstraints = false
+        uiBtn.setTitle("Press", for: .normal)
+        uiBtn.addTarget(self, action: #selector(self.callCustomView), for: .touchUpInside)
+        uiBtn.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
+        uiBtn.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
+        uiBtn.backgroundColor = UIColor.red
+
+        self.view.setYellowBorder(fBorderWidth: 5.0)
+        self.view.setViewColor()
     }
     
-//    @objc func callCustomView() {
-//        self.oooo.showCustomView()
-//    }
+    @objc func callCustomView() {
+        self.oCustomView.showCustomView()
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
