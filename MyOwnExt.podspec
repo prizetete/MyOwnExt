@@ -8,7 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyOwnExt'
-  s.version          = '0.3.8'
+  s.version          = '0.3.9'
+  s.swift_version    = '4.2'
   s.summary          = 'Im trying to create my own cocoapod'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +26,7 @@ Pod::Spec.new do |s|
   s.author           = { 'prizetete' => 'prizetete1212@gmail.com' }
   s.source           = { :git => 'https://github.com/prizetete/MyOwnExt.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.swift_version = '4.2'
+  
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'MyOwnExt/Classes/**/*'
