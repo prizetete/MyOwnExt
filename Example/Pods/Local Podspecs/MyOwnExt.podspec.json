@@ -1,6 +1,7 @@
 {
   "name": "MyOwnExt",
-  "version": "0.3.7",
+  "version": "0.3.9",
+  "swift_versions": "4.2",
   "summary": "Im trying to create my own cocoapod",
   "description": "EveryThing important for my project example my extension border color",
   "homepage": "https://github.com/prizetete/MyOwnExt",
@@ -13,9 +14,8 @@
   },
   "source": {
     "git": "https://github.com/prizetete/MyOwnExt.git",
-    "tag": "0.3.7"
+    "tag": "0.3.9"
   },
-  "swift_versions": "4.2",
   "platforms": {
     "ios": "9.0"
   },

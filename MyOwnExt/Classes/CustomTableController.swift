@@ -18,7 +18,7 @@ public class CustomTableController: UIView, UITableViewDelegate, UITableViewData
         let mTableView = UITableView()
         mTableView.delegate = self
         mTableView.dataSource = self
-        mTableView.backgroundColor = UIColor.red
+        mTableView.backgroundColor = UIColor.brown
         mTableView.separatorStyle = .none
         mTableView.layer.cornerRadius = 10.0
         //        mTableView.isScrollEnabled = false
@@ -122,7 +122,7 @@ class customCell: UITableViewCell {
 
     public var mImg: UIImageView = {
         let mImg = UIImageView()
-        mImg.backgroundColor = .blue
+        mImg.backgroundColor = .red
         return mImg
     }()
 
