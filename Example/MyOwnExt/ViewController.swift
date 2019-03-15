@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         uiBtn.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
         uiBtn.backgroundColor = UIColor.red
 
+//        self.view.setBGRedColorJa()
+//        self.view.setYellowBorder(fBorderWidth: 5.0)
         self.view.setYellowBorder(fBorderWidth: 5.0)
         
     }
