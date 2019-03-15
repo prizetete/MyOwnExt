@@ -1,5 +1,5 @@
 PODS:
-  - MyOwnExt (0.4.0)
+  - MyOwnExt (0.4.2)
 
 DEPENDENCIES:
   - MyOwnExt (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MyOwnExt: 47ff9e862c291fa78bb0658276acf1d74df856bc
+  MyOwnExt: d0babb0baf0c11bd040907c476c1e2f20d98ccd6
 
 PODFILE CHECKSUM: b81e097179fa750908a4557396798c24eaf064d4
 

@@ -28,7 +28,7 @@ class ViewController: UIViewController {
 
 //        self.view.setBGRedColorJa()
 //        self.view.setYellowBorder(fBorderWidth: 5.0)
-        self.view.setYellowBorder(fBorderWidth: 5.0)
+//        self.view.setYellowBorder(fBorderWidth: 5.0)
         
     }
     

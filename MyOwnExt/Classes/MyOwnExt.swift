@@ -22,4 +22,8 @@ public extension UIView {
     public func setBGRedColorJa() {
         self.backgroundColor = .red
     }
+    
+    public func setBGGreenJa() {
+        self.backgroundColor = .green
+    }
 }
