@@ -18,4 +18,8 @@ public extension UIView {
         self.layer.borderColor = UIColor.green.cgColor
         self.layer.borderWidth = 5.0
     }
+    
+    public func setBGRedColorJa() {
+        self.backgroundColor = .red
+    }
 }
